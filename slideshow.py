@@ -35,6 +35,7 @@ def start_slideshow():
     for _ in range (len(Image_paths)):
         update_image()
 
+#tk is the content of the root, adding a button to play slides
 play_button = tk.Button(root, text='Play slideshow', command= start_slideshow)
 play_button.pack()
  
